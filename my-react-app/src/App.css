@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.logo img {
+  height: 80px;  /
+  width: auto;  /
+}
+
+nav ul {
+  list-style: none;
+  padding: 5px;  /
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  vertical-align: middle; 
+}
