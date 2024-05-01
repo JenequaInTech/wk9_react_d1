@@ -6,7 +6,7 @@
 }
 
 .logo img {
-  height: 80px;  /
+  height: 175px;  /
   width: auto;  /
 }
 
@@ -17,6 +17,131 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 20px;
   vertical-align: middle; 
+}
+
+
+
+/* Home Page styles */
+.home-container {
+  background-color: #961b44; /* Cream color */
+  padding: 30px;
+}
+
+.home-link {
+  color: rgb(0, 128, 111); /* Purple color */
+  font-weight: bold;
+}
+
+.home-link:hover {
+  color: pink; /* Pink color on hover */
+}
+
+
+
+
+
+body {
+  font-family: 'Arial', sans-serif; /* Clean, professional font */
+  background-color: #f4f4f4; /* Light grey background for less strain on eyes */
+  color: #333; /* Dark grey text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #a4125b; /* A deep purple for the header */
+  color: white;
+  padding: 10px 20px; /* Padding around the content in the header */
+  text-align: center; /* Center the header content */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points from navigation items */
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Horizontal navigation items */
+  margin-right: 10px; /* Space between navigation items */
+}
+
+nav a {
+  color: white; /* White text in the navigation */
+  text-decoration: none; /* No underline */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover for better user interaction */
+}
+
+.container {
+  width: 80%;
+  margin: auto; /* Center the container */
+  overflow: hidden; /* Clearfix for floated elements */
+}
+
+section {
+  padding: 20px; /* Spacing inside sections */
+  background-color: white; /* White background for sections */
+  border: 1px solid #ccc; /* Subtle border */
+  margin-top: 20px; /* Space between sections */
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #6c63ff;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.task-manager {
+  background-color: #ffffff; /* White background for task manager */
+  padding: 20px;
+  box-shadow: 0 0 10px #ccc; /* Subtle shadow for depth */
+}
+
+.task-input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 5px; /* Space between input field and button */
+}
+
+.task-button {
+  width: 20%;
+  padding: 10px;
+  background-color: #5cb85c; /* Green button for actions */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-button:hover {
+  background-color: #4cae4c; /* Darker green on hover */
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .task-input, .task-button {
+      width: 100%;
+      margin-top: 5px;
+  }
+
+  nav ul li {
+      display: block; /* Stack navigation items on smaller screens */
+      margin-top: 5px;
+  }
+
+  .container {
+      width: 100%;
+  }
 }
